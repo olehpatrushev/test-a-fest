@@ -1,0 +1,17 @@
+@import "~bootstrap";
+
+.geo-selector option:disabled {
+  display: none;
+}
+
+@include media-breakpoint-down(lg) {
+  .geo-selector {
+    margin-top: 30px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .site-content {
+    margin-top: 30px;
+  }
+}
